@@ -9,4 +9,9 @@ Lab 1:
 + Math.<floor(),random()>
 + if else 
 + prefix_postfix 
-+ operator 
++ operator
+
+Lab 2:
++ HTMLDOM (NodeList, classList, insertAdjacentHTML, addEventListener)
++ HTMLEvent (preventDefault)
++ Regex
