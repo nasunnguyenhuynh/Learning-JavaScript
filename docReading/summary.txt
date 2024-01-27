@@ -1,0 +1,40 @@
++ find HTML element
++ insert script into HTML
++ JS output: innerHTML, document.write(), window.alert(), console.log(), window.print() ...
++ comments
++ var (hoisting), let, const (cant reassign a const value/array/object but can change element/properties of const array/object)
++ Operator (Arithmetic, Logic, Comparison, ...)
++ Datatypes: String, Number, BigInt, Boolean, Undefined, Null, Symbol, Object: object, array, date -> 'typeof' method
++ Events: based on HTML Events
++ String: template String (using backticks), new keywords
+    * Common method:
+        charAt()
+        concat()
+        endsWith(), startsWith()
+        includes()
+        indexOf(), lastIndexOf()
+        length()
+        match(), matchAll() -> Can use with regex
+        replace(), replaceAll() -> Can use with regex
+        search() -> Can use with regex
+        slice(start,end) -> get from 'start' to be4 'end', or -x character from string
+        split() -> return an array
+        substr() -> get from 'start' and 'length' character 
+        substring() -> get from 'start' to be4 'end', swap (start > end), treat = 0 (start/end < 0) 
+        toLowerCase(), toUpperCase()
+        toString()
+        valueOf()
+        trim(), trimEnd(), trimStart()
++ Number: (Ex: 2; 3.14; 126e5; 9007199254740995n), Infinity keywords 
+    integers are accurate up to 15 digits
+    calculate float number is not always 100% accurate
+        Ex: let x = 0.2 + 0.1 // x = 0.30000000000000004
+        -> let x = (0.2 * 10 + 0.1 * 10) / 10 // x = 0.3
+    JS try to convert string to number in all numeric operation (except +)
+    * Common method:
+        Number()
+        parseFloat()
+        parseInt() 
+        isNaN() 
+        BigInt()
+        toFixed(), toPrecision() -> get number with a number of decimals/ specified length
