@@ -1,6 +1,9 @@
 // Object.freeze() -> Change from mutable ojb/array to immutable (even use const)
 
-// arrow function with parameters
+/* arrow function with parameters
+More details: 
+    + In regular functions the this keyword represented the object that called the function, which could be the window, the document, a button or whatever.
+    + With arrow functions, the this keyword always represents the object that defined the arrow function.*/
 
 // rest parameter Ex: let arr2 = [...arr1]
 
